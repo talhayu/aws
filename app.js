@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const PORT = 22;
+const PORT = 8080;
 
 app.get('/', async (req, res) => {
     res.send('Hello from AWS deployed service');
