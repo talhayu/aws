@@ -9,8 +9,8 @@ dotenv.config();
 const PORT = 8080;
 
 aws.config.update({
-    accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+    accessKeyId: 'AKIAZOZ4DFY76BQMQW4V',
+    secretAccessKey: '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',
     region: 'ap-south-1'
 });
 
