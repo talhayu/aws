@@ -9,7 +9,7 @@ app.get('/', async (req, res) => {
 app.get('/track_open', async (req, res) => {
     try {
         const email = req.query.email;
-        console.log(`Email clicked: ${email}`);
+        console.log(`Email opened: ${email}`);
         const filePath = path.join(__dirname, 'public', 'pixel.png')
         res.sendFile(filePath)
     } catch (error) {
